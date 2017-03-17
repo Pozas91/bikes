@@ -5,5 +5,5 @@
         'name' => 'Nombre',
         'email' => 'Correo electrónico',
         'password' => 'Contraseña',
-        'confirm_password' => 'Confirmar contraseña',
+        'password_confirmation' => 'Confirmar contraseña',
     ];

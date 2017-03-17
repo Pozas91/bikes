@@ -64,7 +64,7 @@
 
                     <div class="form-group">
                         <label for="password-confirm" class="control-label">
-                            @lang('users.confirm_password') *
+                            @lang('users.password_confirmation') *
                         </label>
 
                         <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required />
