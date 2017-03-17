@@ -103,6 +103,9 @@
             </div>
         </div>
 
+        {{-- Footer --}}
+        @include('layouts.footer')
+
     </div>
 
     <div id="scripts">

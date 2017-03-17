@@ -1,0 +1,22 @@
+$footer-height: 60px;
+$footer-background-color: #F5F5F5;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: $footer-height;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  /* Set the fixed height of the footer here */
+  height: $footer-height;
+  background-color: $footer-background-color;
+  padding: 20px;
+}

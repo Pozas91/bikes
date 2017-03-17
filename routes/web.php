@@ -18,6 +18,10 @@ Route::get('login/provider/{provider}/callback', 'Auth\LoginController@handlePro
 
 Auth::routes();
 
+Route::group(['prefix' => 'docs', 'namespace' => 'Docs'], function() {
+    Route::get('api', 'ApiController')->name('docs.api');
+});
+
 Route::group(['middleware' => 'auth'], function() {
     Route::resource('bikes', 'BikeController');
     Route::resource('bikes.consumptions', 'ConsumptionController', ['except' => ['index', 'show']]);
